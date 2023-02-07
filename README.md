@@ -1,2 +1,0 @@
-# Marketplace
-A decentralized Marketplace.
