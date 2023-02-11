@@ -69,3 +69,9 @@ function buyProduct(uint256 listingId) public payable {
 // Event for tracking when a product is bought
 event ProductBought(uint256 listingId, address buyer);
 }
+
+module.exports = {
+  createUser: createUser,
+  addListing: addListing,
+  buyListing: buyListing
+};

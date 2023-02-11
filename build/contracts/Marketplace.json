@@ -1,0 +1,97 @@
+{
+  "contractName": "Marketplace",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_name",
+          "type": "string"
+        },
+        {
+          "name": "_price",
+          "type": "uint256"
+        }
+      ],
+      "name": "addProduct",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "products",
+      "outputs": [
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "price",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6060604052341561000f57600080fd5b60405160208061014983398101604052808051906020019091905050806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050610116806100536000396000f300606060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063095ea7b31461006757806318160ddd146100f0575b600080fd5b341561007257600080fd5b6100f8600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190803590602001909190803590602001908201803590602001908080601f016020809104026020016040519081016040528093929190818152602001838380828437820191505050505050919050506101b5565b005b34156100ff57600080fd5b6101076101f7565b6040518082815260200191505060405180910390f35b806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050565b60008054905090565b6000808284019050838110156101b057600080fd5b80915050929150505600a165627a7a723058209b9dc3630d3ac2ad60cad06515b816",
+  "deployedBytecode": "0x6060606060...",
+  "sourceMap": "25:1355:0:-;;...",
+  "deployedSourceMap": "25:1355:0:-;;...",
+  "source": "pragma solidity ^0.5.0;\n\ncontract Marketplace {\n string public name;\n\n function setName(string memory _name) public {\n name = _name;\n }\n\n function name() public view returns (string memory) {\n return name;\n }\n}\n",
+  "sourcePath": "contracts/Marketplace.sol",
+  "ast": {
+    "children": [
+      {
+        "children": [
+          {
+            "attributes": {
+              "literals": [
+                "solidity",
+                "^0.5.0"
+              ]
+            },
+            "id": 0,
+            "name": "PragmaDirective",
+            "src": "0:23:0"
+          }
+        ],
+        "id": 1,
+        "name": "SourceUnit",
+        "src": "0:23:0"
+      }
+    ],
+    "id": 2,
+    "name": "AST",
+    "src": "0:23:0"
+  },
+  "compiler": {
+    "version": "0.5.0+commit.1d4f565a"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x88f1d802B8C5F3e114887D25c86BC66964A7E7f1",
+      "transactionHash": "0x46cb23f93a8e99a9a71ed449a9b0dcb88ff58267629a007004cdf336fc51e66e"
+    }
+  },
+  "schemaVersion": "3.4.9",
+  "updatedAt": "2023-02-11T12:01:26.676Z",
+  "networkType": "ethereum"
+}
