@@ -70,8 +70,3 @@ function buyProduct(uint256 listingId) public payable {
 event ProductBought(uint256 listingId, address buyer);
 }
 
-module.exports = {
-  createUser: createUser,
-  addListing: addListing,
-  buyListing: buyListing
-};

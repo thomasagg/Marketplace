@@ -34,8 +34,10 @@ contract("Marketplace", () => {
 
 // Your code here
 
-module.exports = {
-  createUser: createUser,
-  addListing: addListing,
-  buyProduct: buyProduct
-};
+// module.exports = {
+//   createUser: createUser,
+//   addListing: addListing,
+//   buyProduct: buyProduct
+// };
+
+"module.exports = { createUser: createUser }"

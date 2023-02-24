@@ -42,6 +42,13 @@ Use the following command to compile the Marketplace contract:
 
 truffle compile
 
+node compile.js
+
+solc <solidity_file_name>.sol --bin --abi --optimize -o build
+
+"solc --overwrite --bin --abi SimpleContract.sol -o build"
+
+
 ## Deploying the contract
 
 To deploy the contract to the local Ethereum network, run the following command:
