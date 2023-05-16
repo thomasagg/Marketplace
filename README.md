@@ -1,6 +1,6 @@
 # Running and Testing the Chain Mart Contract
 
-Chain Mart is a decentralized marketplace where buyers and sellers can connect and transact directly without intermediaries. The platform utilizes blockchain technology to ensure secure and transparent transactions, as well as to empower users with control over their data and assets. Join the new era of peer-to-peer marketplaces with Chain Mart.
+Chain Mart is a decentralized marketplace where buyers and sellers can connect and transact directly without intermediaries. The platform utilizes blockchain technology to ensure secure and transparent transactions, as well as to empower users with control over their data and assets.
 
 ## Prerequisites
 
